@@ -1,0 +1,23 @@
+<html>
+<body>
+<h2> Artist Table</h2>
+<h3> Insert Artist</h3>
+<form action = "insertartist.php" method="post">
+Artist First Name: <input type="text" name="first_name" required><br>
+Artist Last Name: <input type="text" name="last_name" required><br>
+Date of Birth: <input type="date" name="DoB" required><br>
+Gender: <select type="text" name="gender" required>
+			<option value="M">Male</option>
+			<option value="F">Female</option>
+		</select>
+		<br>
+		<br>
+		<input type="submit" value="Insert Artist">
+</form>
+
+<h3>Get All Artist</h3>
+<form action="selectartist.php" method="post">
+	<input type="submit" value="Select Artist Table">
+</form>
+</body>
+</html>
